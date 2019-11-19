@@ -5,6 +5,7 @@ class Dog
     @name = name 
     @bark = bark
     puts "woof!"
+  end
 end
 
 fido = Dog.new()
