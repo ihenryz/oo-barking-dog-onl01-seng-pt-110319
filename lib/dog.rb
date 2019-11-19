@@ -1,5 +1,5 @@
 class Dog 
-  attr_accessor :name
+  attr_accessor :dog_name
   attr_reader :bark
   
   def bark
@@ -10,3 +10,4 @@ end
 
 fido = Dog.new()
 fido.bark
+
