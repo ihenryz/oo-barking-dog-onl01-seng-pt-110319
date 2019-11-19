@@ -1,9 +1,9 @@
 class Dog 
-  attr_accessor :name, :bark
+  attr_accessor :name
+  attr_reader :bark
   
-  def initialize(name, bark)
-    @name = name 
-    @bark = bark
+  def bark
+    @bark
     puts "woof!"
   end
 end
